@@ -1,4 +1,18 @@
 terraform {
+  #backend "remote" {
+  #  hostname = "app.terraform.io"
+  #  organization = "ExamPro"
+
+  #  workspaces {
+  #    name = "terra-house-1"
+  #  }
+  #}
+  cloud {
+    organization = "terraform-beginner-bootcamp"
+    workspaces {
+      name = "terra-house-ma"
+    }
+  }
   required_providers {
     random = {
       source = "hashicorp/random"
@@ -12,7 +26,6 @@ terraform {
 }
 
 provider "aws" {
-   # Configuration aws
 }
 provider "random" {
   # Configuration options
