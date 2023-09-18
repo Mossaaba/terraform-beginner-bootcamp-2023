@@ -12,6 +12,7 @@ terraform {
 }
 
 provider "aws" {
+   # Configuration aws
 }
 provider "random" {
   # Configuration options
