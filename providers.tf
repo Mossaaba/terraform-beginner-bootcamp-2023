@@ -1,4 +1,4 @@
-terraform {
+/* terraform {
   #backend "remote" {
   #  hostname = "app.terraform.io"
   #  organization = "ExamPro"
@@ -21,9 +21,8 @@ terraform {
     }
   }
 }
-
 provider "aws" {
 }
 provider "random" {
   # Configuration options
-}
+} */
