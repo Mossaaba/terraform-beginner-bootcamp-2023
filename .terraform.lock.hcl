@@ -5,7 +5,7 @@ provider "local.providers/local/terratowns" {
   version     = "1.0.0"
   constraints = "1.0.0"
   hashes = [
-    "h1:Smc/zp8A/ItDjG6LfIOKbuSkDDUeCVVcxnOg3R9eRug=",
+    "h1:E+rpbqJzjf12lWYgAl7ex/4EHDiIW9O7kYZYyXh0aHQ=",
   ]
 }
 
@@ -29,24 +29,5 @@ provider "registry.terraform.io/hashicorp/aws" {
     "zh:a02ecab0f8d68a7f7ed6b2e37a53999d234606e5b8f65f2c3bcfb82826131f00",
     "zh:a9d545217cd339ddfb0b9061a89e82022d727d654bddac294eb0d544a3367fbc",
     "zh:b5a495582adb2c92cff67013c9083f7a08b9295e29af816c541177eb989a20ee",
-  ]
-}
-
-provider "registry.terraform.io/hashicorp/random" {
-  version = "3.5.1"
-  hashes = [
-    "h1:VSnd9ZIPyfKHOObuQCaKfnjIHRtR7qTw19Rz8tJxm+k=",
-    "zh:04e3fbd610cb52c1017d282531364b9c53ef72b6bc533acb2a90671957324a64",
-    "zh:119197103301ebaf7efb91df8f0b6e0dd31e6ff943d231af35ee1831c599188d",
-    "zh:4d2b219d09abf3b1bb4df93d399ed156cadd61f44ad3baf5cf2954df2fba0831",
-    "zh:6130bdde527587bbe2dcaa7150363e96dbc5250ea20154176d82bc69df5d4ce3",
-    "zh:6cc326cd4000f724d3086ee05587e7710f032f94fc9af35e96a386a1c6f2214f",
-    "zh:78d5eefdd9e494defcb3c68d282b8f96630502cac21d1ea161f53cfe9bb483b3",
-    "zh:b6d88e1d28cf2dfa24e9fdcc3efc77adcdc1c3c3b5c7ce503a423efbdd6de57b",
-    "zh:ba74c592622ecbcef9dc2a4d81ed321c4e44cddf7da799faa324da9bf52a22b2",
-    "zh:c7c5cde98fe4ef1143bd1b3ec5dc04baf0d4cc3ca2c5c7d40d17c0e9b2076865",
-    "zh:dac4bad52c940cd0dfc27893507c1e92393846b024c5a9db159a93c534a3da03",
-    "zh:de8febe2a2acd9ac454b844a4106ed295ae9520ef54dc8ed2faf29f12716b602",
-    "zh:eab0d0495e7e711cca367f7d4df6e322e6c562fc52151ec931176115b83ed014",
   ]
 }
