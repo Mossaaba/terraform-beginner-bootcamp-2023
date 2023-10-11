@@ -1,6 +1,11 @@
 # Terraform Beginner Bootcamp 2023 - Week 2
-
+![version sementic](/assets/terraform2.png)
+---
 ## Working with Ruby
+![Ruby](/assets/ruby.png)
+
+[Link](https://www.ruby-lang.org/en/)
+
 
 ### Bundler
 
@@ -33,6 +38,8 @@ We have to use `bundle exec` to tell future ruby scripts to use the gems we inst
 
 ### Sinatra
 
+![Ruby](/assets/sinatra.png)
+
 Sinatra is a micro web-framework for ruby to build web-apps.
 
 Its great for mock or development servers or for very simple projects.
@@ -56,6 +63,8 @@ All of the code for our server is stored in the `server.rb` file.
   
 
 ## CRUD
+
+![CRUD](/assets/crud.png)
 
 Terraform Provider resources utilize CRUD.
 
