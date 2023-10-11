@@ -1,5 +1,6 @@
 # Terraform Beginner Bootcamp 2023 - Week 1
-
+![version sementic](/assets/terraform2.png)
+---
 ## Root Module Structure
 
 Our root module structure is as follows:
@@ -14,6 +15,7 @@ PROJECT_ROOT
 ├── outputs.tf              # stores our outputs
 └── README.md               # required for root modules
 ```
+![version sementic](/assets/assets.png)
 
 [Standard Module Structure](https://developer.hashicorp.com/terraform/language/modules/develop/structure)
 
@@ -113,6 +115,7 @@ In Terraform, variable values can be sourced from multiple places, following a s
 
 This hierarchy of sources enables flexibility and customization while managing Terraform variables.
 
+![version sementic](/assets/varaiables.png)
 
 ## Dealing With Configuration Drift
 
@@ -145,6 +148,7 @@ terraform apply -refresh-only -auto-approve
 
 ## Terraform Modules
 
+![modules](/assets/intro.png)
 ### Terraform Module Structure
 
 It is recommend to place modules in a **`modules`** directory when locally developing modules but you can name it whatever you like.
