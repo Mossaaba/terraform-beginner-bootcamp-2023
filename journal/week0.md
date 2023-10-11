@@ -1,5 +1,11 @@
 # Terraform Beginner Bootcamp 2023 - Week 0 
 
+
+
+
+![version sementic](/assets/terraform2.png)
+---
+
 - [Semantic Versioning](#semantic-versioning)
 - [Install the Terraform CLI](#install-the-terraform-cli)
   * [Considerations with the Terraform CLI changes](#considerations-with-the-terraform-cli-changes)
@@ -30,6 +36,8 @@
 
 ## Semantic Versioning
 
+![version sementic](/assets/version.jpg)
+
 This project is going to utilize semantic versioning for its tagging.
 [semver.org](https://semver.org/)
 
@@ -41,7 +49,7 @@ The general format:
 - **MINOR** version when you add functionality in a backward-compatible manner
 - **PATCH** version when you make backward compatible bug fixes
 
-## Install the Terraform CLI
+## Install the Terraform CLI  
 
 ### Considerations with the Terraform CLI changes
 The Terraform CLI installation instructions have changed due to gpg keyring changes. So we needed to refer to the latest install CLI instructions via Terraform Documentation and change the scripting for installation.
@@ -50,6 +58,8 @@ The Terraform CLI installation instructions have changed due to gpg keyring chan
 
 
 ### Considerations for Linux Distribution
+
+![version sementic](/assets/linux-distr.png)
 
 This project is built against Ubuntu.
 Please consider checking your Linux distribution and change according to distribution needs. 
@@ -77,6 +87,9 @@ UBUNTU_CODENAME=jammy
 ```
 
 ### Refactoring into Bash Scripts
+
+
+![version sementic](/assets/bash.png)
 
 While fixing the Terraform CLI gpg depreciation issues we noticed that bash scripts steps were a considerable amount more code. So we decided to create a bash script to install the Terraform CLI.
 
@@ -124,7 +137,7 @@ chmod 744 ./bin/install_terraform_cli
 https://en.wikipedia.org/wiki/Chmod
 
 ## Gitpod Lifecycle
-
+ ![version sementic](/assets/gitpod_logo.png)
 We need to be careful when using the Init because it will not rerun if we restart an existing workspace.
 
 https://www.gitpod.io/docs/configure/workspaces/tasks
@@ -182,6 +195,8 @@ You can also set en vars in the `.gitpod.yml` but this can only contain non-sens
 
 ## AWS CLI Installation
 
+![version sementic](/assets/aws-logo.png)
+
 AWS CLI is installed for the project via the bash script [`./bin/install_aws_cli`](./bin/install_aws_cli)
 
 
@@ -205,7 +220,12 @@ If it is successful you should see a JSON payload return that looks like this:
 
 We'll need to generate AWS CLI credits from the IAM User in order to the user AWS CLI.
 
-## Terraform Basics
+## Terraform Basics 
+
+[source](https://developer.hashicorp.com/terraform/intro)
+
+
+![version sementic](/assets/process.png)
 
 ### Terraform Registry
 
@@ -265,6 +285,8 @@ This file can contain sensitive data.
 If you lose this file, you lose knowing the state of your infrastructure.
 
 `.terraform.tfstate.backup` is the previous state file state.
+
+![version sementic](/assets/before.png)
 
 #### Terraform Directory
 
