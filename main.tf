@@ -42,7 +42,7 @@ FC Barcelona, commonly referred to as Barça, is a professional football club ba
 Spain. It is one of the most successful and popular football clubs in the world..
 DESCRIPTION
   domain_name = module.home_arcanum_hosting.domain_name
-  town = "missingo"
+  town = "video-valley"
   content_version = var.arcanum.content_version
 }
 
@@ -56,11 +56,9 @@ module "home_payday_hosting" {
 resource "terratowns_home" "home_payday" {
   name = "Making your Payday Bar"
   description = <<DESCRIPTION
-Since I really like Payday candy bars but they cost so much to import
-into Canada, I decided I would see how I could my own Paydays bars,
-and if they are most cost effective.
+this is algerian house food
 DESCRIPTION
   domain_name = module.home_payday_hosting.domain_name
-  town = "missingo"
+  town = "cooker-cove"
   content_version = var.payday.content_version
 }
